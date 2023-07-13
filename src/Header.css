@@ -1,0 +1,57 @@
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.list-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    float: left;
+    margin-left: 50px;
+}
+.list-header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+.list-header ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+.list-header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.list-icons{
+    margin-right: 70px;
+}
+.like,.cart,.profile{
+    height: 60px;
+    width: 50px;
+}
+
+.shop-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.bg-image{
+    width: 65rem;
+    height: 25rem;
+    float:right
+}
+
+.shop-heading{
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+}

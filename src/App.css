@@ -1,0 +1,69 @@
+.App{
+  position: relative;
+  display: flex;
+
+}
+.phone{
+  display: flex;
+  margin-left: 60px;
+  /* align-items: baseline; */
+}
+.phone-logo{
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+.phone-no{
+  margin-top: 7px;
+  width: 9rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.logo{
+  /* display: flex; */
+  width: 60px;
+  height: 60px;
+  /* width: 2rem; */
+}
+.brand{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 25rem;
+  align-items: center;
+  margin: 10px;
+}
+.heading{
+  /* margin-top: 20px; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  width: 2rem;
+}
+.light-heading{
+  font-weight: 500;
+}
+
+.user{
+  margin-right: 4px;
+  /* margin-bottom: 90px; */
+  display: flex;
+  /* width: 4rem; */
+}
+
+.user ul{
+  display: flex;
+  gap: 1em;
+  list-style-type: none;
+  
+}
+
+.user ul li{
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%;
+
+  padding:10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}

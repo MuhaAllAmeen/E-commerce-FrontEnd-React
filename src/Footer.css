@@ -1,0 +1,62 @@
+.footer{
+    background-color: #fa6102;
+    color: white;
+    padding-bottom: 100px;
+}
+.footer-content{
+    /* background-color: #fa6102; */
+    width: 80%;
+    margin-left: 120px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-heading{
+    /* background-color: #fa6102; */
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+.logo2{
+    width: 60px;
+    height: 60px;
+}
+.logoandheading{
+    display: flex;
+    flex-direction: row;
+
+}
+.social{
+    /* background-color: antiquewhite; */
+    padding-top: 60px;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    margin: 10px;
+}
+.socialmedia{
+    margin-bottom: 20px !important;
+    font-weight: 600;
+}
+.ico{
+    height: 30px;
+    width: 30px;
+    
+}
+.contact{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.location,.email,.phone-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    /* gap: 1rem; */
+}
