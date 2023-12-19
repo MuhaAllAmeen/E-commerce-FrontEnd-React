@@ -1,3 +1,5 @@
+<h1>IMPORTANT</h1>
+<h2>RUN npm i on the terminal before running the project</h2>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
