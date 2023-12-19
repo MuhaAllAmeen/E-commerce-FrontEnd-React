@@ -22,9 +22,19 @@
 .list-header ul li {
     text-decoration: none;
     list-style-type: none;
+    width: 60px;
+    text-align: center;
+}
+.list-header ul li:hover{
+    background-color: orangered;
+    border-radius: 5px;
 }
 .list-header ul li a{
     color: black;
+    text-decoration: none;
+}
+.list-header ul li a:hover{
+    color: white;
     text-decoration: none;
 }
 

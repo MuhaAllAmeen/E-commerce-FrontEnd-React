@@ -3,18 +3,21 @@ import Products from './Products.js'
 import like from './like.png'
 import cart from './cart.png'
 import profile from './profile.png'
+import About from './About.js'
+import {Routes,Route} from 'react-router-dom'
 
 function Header(){
     return(
-        <>
+        <>     
         <div className='header-and-shop'>
             <div className="header">
                 <div className="list-header">
                 <ul>
-                    <li><a href="#" >Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Blog</a></li>
+                        
+                    <li><a href="/">Home</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Blog</a></li>
                 </ul>
                 </div>
                 <div className="list-icons">
